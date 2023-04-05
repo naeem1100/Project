@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="../assets/images/1 (3).jpg">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Nanum+Myeongjo&family=Timmana&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Contact</title>
+    <style>
+      a{
+        text-decoration: none;
+      }
+       /* ********* start body the color ********** */
+    .them{
+      background-color: black;
+      color: white !important;
+    }
+  /* ********* End body the color ********** */
+    </style>
+</head>
+<body>
+    <!-- ******* Start container-fluid ******* -->
+        <div class="container-fluid" >
+             <!-- ********** start navbar *********** -->
+   <nav class="navbar navbar-expand-lg bg-light" id="upaerow">
+      <a class="navbar-brand" href="#"><img src="../assets/images/hts-2.png" style="height: 100px;" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 firstUl">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../index.html"><span style="font-weight: normal;"></span>&nbsp;&nbsp;Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./services.html"><span style="font-weight: normal;">| </span>&nbsp;&nbsp;&nbsp;Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./About_us.html"><span style="font-weight: normal;">| </span>&nbsp;&nbsp;&nbsp;About us</a>
+          </li>
+          <div class="dropdown">
+            <button class="btn dropdown-toggle text-white" style="background-color: #742ea0;" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              contact
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="../index.html">Home</a></li>
+              <li><a class="dropdown-item" href="./Contact_Us.html">About us</a></li>
+              <li><a class="dropdown-item" href="./services.html">services</a></li>
+              <li><a class="dropdown-item" href="./services.html">compare</a></li>
+            </ul>
+          </div>
+          <li class="nav-item">
+            <a class="nav-link" href="./compare.html"><span style="font-weight: normal;">| </span>&nbsp;&nbsp;&nbsp;Compare</a>
+          </li>
+        </ul>
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" id="them">mode
+      </div>
+        <ul class="nav_icon">
+            <li>
+                <a  href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i  class="fa-solid fa-user" style="color: #f62ac1; text-decoration: none;"></i></span id="nav-icon">&nbsp;Login</span></a>   
+              </li>
+           </ul>
+  </nav>
+  <!-- ************** End navbar *************** -->
+
+    <!-- ******** Start sign in form ********** -->
+  
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          </div>
+          <div class="modal-body">
+              <div class="row mt-5">
+                  <div class="col-3" style="margin-left: 35%;">
+                      <form action="" class="form1">
+                          <input type="email" class="form-control" autofocus pattern="[a-zA-Z0-9\s]{3,20}" title="must be contain alphabetic 5" placeholder="Email" required>
+                          <input type="password" class="form-control mt-3" placeholder="password" required>
+                          <div class="d-grid mt-3">
+                              <button class="btn btn-primary">submit</button>
+                          </div>
+                          <hr>
+                          <div class="d-grid mt-5">
+                              <button class="btn btn-success" data-bs-toggle="modal">forget password</button>
+                          </div>
+                      </form>   
+                  </div>
+              </div>
+          </div>
+        </div>
+  <!-- ******** End sign in modal ********** -->
+
+   <!-- ************ Start map and form ********* -->
+      <div class="row mt-5">
+        <div class="col">
+          <form action="">
+            <input type="text" id="val1" onkeyup="val()" class="form-control" placeholder="firstname"><br>
+            <input type="text" id="val2" onkeyup="val()"  class="form-control" placeholder="lastname"><br>
+            <input type="email" id="val3" onkeyup="val()" class="form-control" placeholder="Email"><br>
+            <input type="password" id="val4" onkeyup="val()" class="form-control" placeholder="**********"><br>
+            <textarea name="" id="val5" onkeyup="val()" cols="87" rows="5"></textarea>
+            <input type="submit" id="submit" disabled onclick="alert('your request successfully submited')">
+          </form>
+        </div>
+        <div class="col ratio ratio-16x9">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.313992342155!2d67.14963621444029!3d24.887269150312918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb339999415e0c3%3A0x36742eee0fd9c291!2sAptech%20Metro%20Star%20Gate!5e0!3m2!1sen!2s!4v1673715535543!5m2!1sen!2s" width="100%" height="370" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+   <!-- ************ End map and form ********* -->
+
+   <!-- *********** start address *********** -->
+      <div class="row mt-2">
+        <div class="col">
+          <h1 style=" color: #f72585; font-family: 'Vesper Libre', serif; text-align: center;">Visit our location or contact us</h1>
+          <h4 style="text-align: center; color: #f62ac1;">Head Office</h4>
+          <p><i class="fa-solid fa-location-pin" style="color: #f62ac1;"></i>Block 13 Rabia City Road, Main Gulistan-e-Johar,karachi,pakistan</p>
+          <p><i class="fa-solid fa-envelope" style="color: #f62ac1;"></i>naeemkhan09807@gmail.com</p>
+          <p><i class="fa-solid fa-phone" style="color: #f62ac1;"></i> 0334-3936185</p>
+          <p><i class="fa-solid fa-clock" style="color: #f62ac1;"></i> 9.00 am to 5.00 pm sun to fri</p>
+        </div>
+        <!-- *********** End addresss ************ -->
+
+        <!-- *********** Start faqs ************ -->
+        <div class="col text-center">
+          <img src="../assets/images/faqs.png" class="img-fluid" style="height: 100px;" alt="">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Do I need an account to place an order?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">You can shop without creating an account. However, if you register with us, you’ll enjoy the following benefits:
+                Track your orders and review past purchases
+                Request an exchange or return directly from your account
+                Add pieces you love or missed out on to your Wish List
+                Save your address and card details so you can shop even quicker in future</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  What packaging options can I choose from?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Your order will be placed in one of our signature black boxes and luxuriously tied with ribbon. All our signature boxes are FSC-certified and fully recyclable.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  How can I exchange or return an item?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">You have 28 days from the date you received your order to exchange or return item(s).
+
+                  Create your return here, or if you are a registered user, by logging in your NET‑A‑PORTER account. </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingfour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Why are some items marked as final sale?
+                </button>
+              </h2>
+              <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Fragrance, nail polish, and aerosols cannot be exchanged or returned due to transport restrictions.
+
+                  During our sale, products marked as Further 20% cannot be exchanged or returned. </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ************ End faqs ************* -->
+
+    <!-- ********** Start footer ************ -->
+
+            <!-- ********** Start footer 1st row ************ -->
+           
+            <div class="row mt-5" style="background-color:#742ea0">
+                <div class="col-3 text-center mt-3">
+                  <h2 class="text-light">QUICK UP</h2>
+                  <ul>
+                    <a class="footer text-light" href="../index.html"><li>Home</li></a>
+                    <a class="footer text-light" href="./services.html"><li>Services</li></a>
+                    <a class="footer text-light" href="./About_us.html"><li>About Us</li></a>
+                    <a class="footer text-light" href="./Contact_Us.html"><li>Contact Us</li></a>
+                  </ul>
+                </div>
+                <div class="col-3 mt-3 text-light">
+                  <h2>CONTACT US</h2>
+                  <a href="#" class="footer text-light"><i class="fa-solid fa-location-dot"></i>Aptech-Start-Get karachi</a><br>
+                  <a href="#" class="footer text-light"><i class="fa-solid fa-phone"></i>+92-334-3936185</a><br>
+                  <a href="#" class="footer text-light"><i class="fa-brands fa-whatsapp"></i>+92-324-2909581</a><br>
+                </div>
+                <div  class="col mt-3 text-center text-light">
+                  <h2>Info</h2>
+                  <ul>
+                    <a class="footer text-light" href="#"><li>Payment option</li></a>
+                    <a class="footer text-light" href="#"><li>Terms & condition</li></a>
+                    <a class="footer text-light" href="#"><li>Faqs</li></a>
+                    <a class="footer text-light" href="#"><li>Privacy policy</li></a>
+                  </ul>
+                </div>
+                <div class="col mt-3 text-center text-light">
+                  <h2>Social links</h2>
+                  <a href="" class="footer text-light"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="" class="footer text-light"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="" class="footer text-light"><i class="fa-brands fa-youtube"></i></a>
+                  <a href="" class="footer text-light"><i class="fa-brands fa-pinterest"></i></a>
+                  <a href="mailto:nu3936185@gmail.com" class="footer text-light"><i class="fa-solid fa-envelope"></i></a>
+                  <a href="https://twitter.com/?lang=en" class="footer text-light"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <!-- *********** End footer 1st row ********* -->
+  
+                <!-- ********** Start last row of footer ********** -->
+                </div>
+                <div class="row"  style="background-color:#742ea0">
+                  <hr style="color: white;">
+                  <div class="col-2"></div>
+                <div class="col">
+                  <ul class="footerUl">
+                    <li>&copy;2023 |</li>
+                    <li>Dysing by</li><a href="mailto: nu3936185@gmail.com"><i class="fa-solid fa-envelope" style="color: white;"></i><span style="color: white;">|&nbsp;</span></a>
+                    <li> Terms of Use &nbsp; |</li>
+                    <li> Refund & Cancelation policy &nbsp; |</li>
+                    <li>Shiping policy</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- ********* End last row of footer *********  -->
+  
+              <!-- *********** End footer *********** -->
+
+               <!-- ********** start up aerow ********* -->
+            <div class="fixed-bottom" style="text-align: right;">
+              <a href="#upaerow"><img src="../assets/images/circule.png" height="50" alt=""></a>
+           </div>
+             <!-- ********** End up aerow ********* -->
+    </div>
+    <!-- ********* End container-fluid ******* -->
+    <script src="../assets/js/jquery-3.6.3.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init(2000);
+</script>
+<script>
+  function val(){
+    if(val1.value!='' && val2.value!='' && val3.value!='' && val4.value!='' && val5.value!=''){
+      document.getElementById('submit').disabled = false;
+    }else{
+      document.getElementById('submit').disabled = true;
+    }
+  }
+</script>
+<script>
+  // ********** start body Theme **********\\
+  $(document).ready(function(){
+        $('#them').click(function(){
+          $('body').toggleClass('them');
+        });
+      });
+  // ********* End body theme *********\\
+</script>
+</body>
+</html>
